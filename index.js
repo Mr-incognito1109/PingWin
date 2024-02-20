@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { Client, Events, GatewayIntentBits, SlashCommandBuilder } from 'discord.js';
+require('./keep_alive.js');
 import fs from 'fs';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
