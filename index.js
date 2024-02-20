@@ -6,6 +6,8 @@ const fs = require('fs');
 
 const keep_Alive = require('./keep_alive.js')
 
+// keepAlive();
+
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.on(Events.ClientReady, () => {
@@ -92,7 +94,3 @@ client.on(Events.InteractionCreate, interaction => {
 });
 
 client.login(process.env.TOKEN); 
-
-
-
-// https://discord.com/api/oauth2/authorize?client_id=1209347452268711976&permissions=8&scope=applications.commands+bot
