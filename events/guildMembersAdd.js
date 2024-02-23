@@ -1,3 +1,5 @@
+const { channel } = require("diagnostics_channel");
+
 module.exports = {
     name: "guildMemberAdd",
     async execute(member) {
@@ -7,7 +9,7 @@ module.exports = {
 
             await member.roles.add(welcomeRole);
 
-            const welcomeChannel = await member.guild.channels.cache.get("1209776511163572296"); 
+            const welcomeChannel = await member.guild.channels.cache.find(channel => channel.name === "aajaao"); 
             if (!welcomeChannel) return console.error('Could not find welcome channel');
 
             await welcomeChannel.send(`Welcome to the server ${member.user} boi`);
