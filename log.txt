@@ -30,3 +30,16 @@
 [2/23/2024, 11:16:35 AM] zoro_mosshead#0 used command /help 
 [2/23/2024, 11:21:51 AM] zoro_mosshead#0 used command /help 
 [2/23/2024, 11:28:24 AM] zoro_mosshead#0 used command /help 
+[2/23/2024, 11:30:05 AM] hakai_1109#0 used command /help 
+[2/23/2024, 11:30:13 AM] hakai_1109#0 used command /time 
+[2/23/2024, 11:37:54 AM] zoro_mosshead#0 used command /time 
+[2/23/2024, 11:38:24 AM] zoro_mosshead#0 used command /time 
+[2/23/2024, 11:44:44 AM] zoro_mosshead#0 used command /time 
+[2/23/2024, 11:50:27 AM] zoro_mosshead#0 used command /time 
+[2/23/2024, 11:50:36 AM] hakai_1109#0 used command /time 
+[2/23/2024, 11:52:46 AM] zoro_mosshead#0 used command /time 
+[2/23/2024, 11:55:02 AM] zoro_mosshead#0 used command /time 
+[2/23/2024, 11:59:32 AM] zoro_mosshead#0 used command /hello 
+[2/23/2024, 12:01:20 PM] zoro_mosshead#0 used command /time 
+[2/23/2024, 12:01:53 PM] zoro_mosshead#0 used command /time 
+[2/23/2024, 12:02:25 PM] zoro_mosshead#0 used command /help 
