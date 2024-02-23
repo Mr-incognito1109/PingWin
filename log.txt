@@ -1,0 +1,29 @@
+[2/20/2024, 7:40:17 PM] zoro_mosshead#0 used command /hello 
+[2/20/2024, 7:40:33 PM] zoro_mosshead#0 used command /ping 
+[2/20/2024, 7:42:16 PM] zoro_mosshead#0 used command /pingwin 
+[2/20/2024, 7:43:57 PM] zoro_mosshead#0 used command /pinguser (target: 717102050420326411) (channel: 1076865708929069120) (message: 🍚 🍛 🫄🏻)
+[2/20/2024, 7:44:45 PM] zoro_mosshead#0 used command /pinguser (target: 717102050420326411) (channel: 1076865708929069120) (message: You gober <:zoroDedge_owo:1180522715371819139>)
+[2/20/2024, 7:45:04 PM] zoro_mosshead#0 used command /pingwin 
+[2/20/2024, 7:45:28 PM] zoro_mosshead#0 used command /hello (user: 717102050420326411)
+[2/20/2024, 7:45:54 PM] zoro_mosshead#0 used command /pingwin 
+[2/20/2024, 7:46:09 PM] zoro_mosshead#0 used command /pingwin 
+[2/20/2024, 7:52:10 PM] zoro_mosshead#0 used command /pinguser (target: 1123249564615458937) (channel: 1076865708929069120) (message: behave am the new admin here <:angry_owo:1159161246365519912>)
+[2/20/2024, 11:15:16 PM] zoro_mosshead#0 used command /hello (user: 116275390695079945)
+[2/20/2024, 11:15:37 PM] zoro_mosshead#0 used command /pingwin 
+[2/20/2024, 11:27:22 PM] zoro_mosshead#0 used command /pingwin 
+[2/21/2024, 10:48:18 AM] zoro_mosshead#0 used command /hello (user: 619479790478426112)
+[2/21/2024, 10:48:46 AM] zoro_mosshead#0 used command /pingwin 
+[2/21/2024, 10:48:52 AM] zoro_mosshead#0 used command /pingwin 
+[2/21/2024, 10:53:39 AM] zoro_mosshead#0 used command /pingwin 
+[2/21/2024, 11:28:29 AM] zoro_mosshead#0 used command /hello (user: 1209552166075768843)
+[2/21/2024, 11:28:38 AM] zoro_mosshead#0 used command /hello (user: 1033639379123576872)
+[2/21/2024, 12:57:44 PM] zoro_mosshead#0 used command /hello 
+[2/21/2024, 12:57:51 PM] zoro_mosshead#0 used command /hello (user: 116275390695079945)
+[2/21/2024, 12:57:57 PM] zoro_mosshead#0 used command /pingwin 
+[2/21/2024, 12:58:07 PM] zoro_mosshead#0 used command /pinguser (target: 172002275412279296) (channel: 1034915773380050996) (message: fbijebf)
+[2/21/2024, 12:59:05 PM] zoro_mosshead#0 used command /hello 
+[2/21/2024, 12:59:30 PM] zoro_mosshead#0 used command /hello (user: 116275390695079945)
+[2/21/2024, 12:59:39 PM] zoro_mosshead#0 used command /pingwin 
+[2/23/2024, 10:18:56 AM] hakai_1109#0 used command /pinguser (target: 1033639379123576872) (channel: 1209776511163572296) (message: Hello there sid)
+[2/23/2024, 10:20:14 AM] zoro_mosshead#0 used command /time 
+[2/23/2024, 10:20:46 AM] zoro_mosshead#0 used command /pinguser (target: 1140636226551037973) (channel: 1070971587504910396) (message: hello)
