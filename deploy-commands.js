@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const clientId = process.env.CLIENT_ID;
-const guildId = process.env.GUILD_ID;
+// const guildId = process.env.GUILD_ID;
 const token = process.env.TOKEN;
 
 
@@ -39,6 +39,7 @@ for(const file of commandFiles) {
 
 const rest = new REST ({version : '10'}).setToken(token);
 
-rest.put(Routes.applicationGuildCommands(clientId,guildId),{body : commands}) //use "Routes.applicationCommand" for Globally registring your Slashcommands (ALL the servers instead of only a server)
+rest.put(Routes.applicationCommands(clientId),{body : commands}) //use "Routes.applicationCommand" for Globally registring your Slashcommands (ALL the servers instead of only a server)
     .then(()=> console.log('Successfully registered application commands !'))
     .catch(console.error);
+
