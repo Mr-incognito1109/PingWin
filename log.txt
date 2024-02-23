@@ -27,3 +27,6 @@
 [2/23/2024, 10:18:56 AM] hakai_1109#0 used command /pinguser (target: 1033639379123576872) (channel: 1209776511163572296) (message: Hello there sid)
 [2/23/2024, 10:20:14 AM] zoro_mosshead#0 used command /time 
 [2/23/2024, 10:20:46 AM] zoro_mosshead#0 used command /pinguser (target: 1140636226551037973) (channel: 1070971587504910396) (message: hello)
+[2/23/2024, 11:16:35 AM] zoro_mosshead#0 used command /help 
+[2/23/2024, 11:21:51 AM] zoro_mosshead#0 used command /help 
+[2/23/2024, 11:28:24 AM] zoro_mosshead#0 used command /help 
