@@ -3,6 +3,7 @@ const path = require('path');
 const {REST} = require('@discordjs/rest');
 const {Routes} = require('discord.js');
 const dotenv = require('dotenv');
+const { log } = require('console');
 dotenv.config();
 
 const clientId = process.env.CLIENT_ID;
@@ -17,6 +18,7 @@ function getFiles(dir){
     let commandFiles = [];
 
     for(const file of files) {
+        console.log("Loading command file : ",file.name); //shows list of commands registered !!
         if(file.isDirectory()){
             commandFiles = [
                 ...commandFiles,

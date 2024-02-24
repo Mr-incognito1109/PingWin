@@ -10,12 +10,12 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setTitle("Help Menu")
       .setColor("White")
-      .setDescription("Bot help Menu")
+      .setDescription("__Bot help Menu")
       .setTimestamp()
       .addFields(
         {
           name: "📖 General slash commands",
-          value: "`/pinwing` , `/pinguser`,`/hello`,`/time`,`/userinfo`",
+          value: "`/pinwing` , `/pinguser`,`/hello`,`/time`,`/userinfo`,`/coinflip`,`/avatar`",
         },
         {
           name: "Need More help ?",
@@ -24,7 +24,7 @@ module.exports = {
       )
 
       .setFooter({
-        text: "Created by zoro_mosshead • Join our guild: [Invite Link Here](https://discord.gg/yAMXvQPtx3)",
+        text: "Created by zoro_mosshead ",
       });
 
     await interaction.reply({
