@@ -23,7 +23,8 @@ module.exports = {
           .setName("message")
           .setDescription("The custom message to send")
           .setRequired(true)
-    ),
+    )
+    .setDMPermission(false),
 
     async execute(interaction) {
 
