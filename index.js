@@ -11,6 +11,7 @@ const keepAlive = require('./keep_alive.js'); //For hosting through webservices
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildPresences, GatewayIntentBits.GuildMembers] });
 
 
+//Slash commands based
 const eventsPath = path.join(__dirname , 'events');
 const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
 

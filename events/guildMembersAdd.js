@@ -1,5 +1,3 @@
-const { channel } = require("diagnostics_channel");
-
 module.exports = {
     name: "guildMemberAdd",
     async execute(member) {
