@@ -22,18 +22,22 @@ module.exports = {
     async execute(message) {
         if (message.author.bot) return; // Ignore bot messages
 
-        if (message.content.toLowerCase().includes('owo') && message.channel.id === '1165528231491948545') { 
+        if ((message.content.toLowerCase().includes('owo') || message.content.toLowerCase().includes('uwu')) && (message.channel.id === '1165528231491948545' || message.channel.id === '1213721148962111518')) { 
             const randomNumber = Math.floor(Math.random() * 100) + 1;
             let coinsEarned = 0;
 
             if (randomNumber >= 90 && randomNumber <= 98) {
-                coinsEarned = 200;
-            } else if (randomNumber === 99) {
+                coinsEarned = 300;
+            }else if (randomNumber>= 50 && randomNumber<=60){
+                coinsEarned = 200
+            }else if (randomNumber === 99) {
                 coinsEarned = 400;
             } else if (randomNumber === 100) {
                 coinsEarned = 1000;
             } else if (randomNumber === 69) {
                 coinsEarned = 2000;
+            } else if (randomNumber ===1){
+                coinsEarned = 500
             }
 
             db.run("UPDATE pcoins SET balance = COALESCE(balance, 0) + ? WHERE user_id = ?", [coinsEarned, message.author.id], (err) => {

@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+
 const { SlashCommandBuilder, EmbedBuilder } = Discord;
 
 module.exports = {
@@ -8,31 +9,37 @@ module.exports = {
 
   async execute(interaction) {
     const embed = new EmbedBuilder()
-      .setTitle("Help Menu")
-      .setColor("White")
-      .setDescription("__Bot help Menu")
+      .setTitle("🚀 Help Menu")
+      .setColor("#ff8c00")
+      .setDescription("Here's how to use the bot:")
       .setTimestamp()
       .addFields(
         {
-          name: "📖 General slash commands",
-          value: "- `/pinwing` replies with pongwin!\n- `/pinguser` ping a user in a specified channel.\n- `/hello` says hello\n- `/time` displays time\n- `/userinfo` gives user info\n- `/coinflip` flips a coin\n- `/avatar` displays avatar of user or another.",
-        },
+          name: "📖 General Commands",
+          value: "`/ping`, `/hello`, `/time`, `/userinfo`, `/coinflip`, `/avatar`,`/helpmod`",
+        }, 
+        { name: ' ', value: ' ' },
         {
           name: "<a:coin_rain:1213455638152089630> Gambling Commands",
-          value: "- `/bet` bet your coins on head or tails\n- `/give` give your pcoins to others\n- `/balance` check your or others balnace\n- `/leaderboard` checks leaderboard of top 10 members",
+          value: "`/bet`, `/give`, `/balance`, `/leaderboard`, `/slots`, `/rps`",
         },
+        { name: ' ', value: ' ' },
         {
-          name : "How to earn <:p_coins:1213423162138828921> ?",
-          value : "- type `owo` , any word contains owo or emoji in this cahnnel [get free coins](https://discord.com/channels/1076865708375425024/1165528231491948545)\n- ⚠ Dont use `/give` commands firstly register yourself here [get free coins](https://discord.com/channels/1076865708375425024/1165528231491948545) by typing owo then you can use the bot fully!! "
+          name: "💰 How to earn <:p_coins:1213423162138828921> ?",
+          value: "Earn <:p_coins:1213423162138828921> by chatting and participating in events.",
         },
+        { name: ' ', value: ' ' },
+        // {
+        //   name: "<a:ban:1213797183929978891> Moderation Commands",
+        //   value: "`/timeout`, `/kick`, `/ban`, `/unban`",
+        // },
         {
-          name: "Need More help ?",
-          value: "- Join our guild: [Zoro](https://discord.gg/yAMXvQPtx3)",
+          name: "🔗 Need More Help?",
+          value: "[Join our Guild](https://discord.gg/yAMXvQPtx3) for support.",
         }
       )
-
       .setFooter({
-        text: "Created by zoro_mosshead ",
+        text: "Created by zoro_mosshead",
       });
 
     await interaction.reply({
